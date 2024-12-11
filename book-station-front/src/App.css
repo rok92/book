@@ -1,0 +1,81 @@
+#root {
+	min-width: 1280px;
+}
+
+section {
+	margin: 0 auto;
+}
+
+a {
+	cursor: pointer;
+}
+
+.nav-title {
+	font-size: 30px;
+}
+
+.book_img {
+	text-align: center;
+	border: 1px solid black;
+	margin: 10px;
+	padding-block: 50px;
+}
+
+.card-container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	gap: 20px;
+	cursor: pointer;
+}
+
+.card {
+	flex: 0 0 calc(20% - 16px);
+	border: 1px solid #ddd;
+	border-radius: 8px;
+	/* 카드 배경색 */
+}
+
+.page-item {
+	display: flex;
+	justify-content: center;
+}
+
+.add-book {
+	cursor: pointer;
+}
+
+.register-form {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+.reg-input {
+	max-width: 600px;
+}
+
+.detail-box {
+	display: flex;
+	justify-content: center;
+	/* max-width: 500px; */
+}
+
+.book-img {
+	border: 3px solid #222222;
+	border-radius: 20px;
+	padding: 150px 50px;
+	font-size: 40px;
+}
+
+.info-box {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	margin-left: 50px;
+}
+
+.modi {
+	margin-right: 10px;
+}
