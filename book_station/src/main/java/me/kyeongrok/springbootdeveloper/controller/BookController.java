@@ -6,8 +6,6 @@ import me.kyeongrok.springbootdeveloper.dto.AddBookRequest;
 import me.kyeongrok.springbootdeveloper.dto.BookResponse;
 import me.kyeongrok.springbootdeveloper.dto.UpdateBookRequest;
 import me.kyeongrok.springbootdeveloper.service.BookService;
-import org.springframework.data.domain.Page;
-import org.springframework.data.domain.Pageable;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
