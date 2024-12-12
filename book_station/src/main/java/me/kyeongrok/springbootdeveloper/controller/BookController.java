@@ -16,7 +16,7 @@ import java.util.stream.Collectors;
 
 @RestController
 @RequiredArgsConstructor
-@CrossOrigin(origins = {"http://localhost:5173", "https://unique-valkyrie-7591c5.netlify.app/"})
+@CrossOrigin(origins = {"http://localhost:5173", "https://rokybookstation.netlify.app"})
 @RequestMapping("/api/books")
 public class BookController {
 
